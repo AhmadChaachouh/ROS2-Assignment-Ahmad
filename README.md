@@ -9,10 +9,6 @@ This project implements a temperature monitoring system using ROS 2. The system 
 - **Alert Publisher Node**: Subscribes to the `alert_trigger` topic and publishes an alert message to the `alert` topic.
 - **Temperature Logger Node** (Bonus): Subscribes to the `temperature` topic and logs the temperature values over time to a log file.
 
-## Requirements
-
-- ROS 2 (Foxy or later)
-- Python 3.7+
 
 ## Setup
 
