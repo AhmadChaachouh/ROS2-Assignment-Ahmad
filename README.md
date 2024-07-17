@@ -1,0 +1,44 @@
+# ROS 2 Temperature Monitoring System
+
+## Overview
+
+This project implements a temperature monitoring system using ROS 2. The system consists of the following nodes:
+
+- **Temperature Publisher Node**: Simulates a temperature sensor by publishing random temperature values to the `temperature` topic.
+- **Threshold Subscriber Node**: Subscribes to the `temperature` topic, checks if the temperature exceeds a predefined threshold, and publishes a message to the `alert_trigger` topic if the threshold is exceeded.
+- **Alert Publisher Node**: Subscribes to the `alert_trigger` topic and publishes an alert message to the `alert` topic.
+- **Temperature Logger Node** (Bonus): Subscribes to the `temperature` topic and logs the temperature values over time to a log file.
+
+## Requirements
+
+- ROS 2 (Foxy or later)
+- Python 3.7+
+
+## Setup
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone <repository-url> ~/ros2_ws/src/temperature_monitoring
+
+2. **Navigate to the workspace**:
+
+   ```bash
+   cd ~/ros2_ws
+
+3. **Build the package:**:
+
+   ```bash
+   colcon build
+
+4. **Source the setup script:**:
+
+   ```bash
+   source install/setup.bash
+
+## Running the system
+
+You can launch the entire system using the provided launch file. This will start all the nodes (temperature publisher, threshold subscriber, alert publisher, and temperature logger).
+
+ ```bash
+    ros2 launch temperature_monitoring temperature_monitoring_launch.py
