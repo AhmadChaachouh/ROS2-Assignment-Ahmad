@@ -17,5 +17,10 @@ def generate_launch_description():
             package='ROS2FirstAssignment',
             executable='alert_publisher',
             name='alert_publisher'
+        ),
+        Node(
+            package='ROS2FirstAssignment',
+            executable='temperature_logger',
+            name='temperature_logger'
         )
     ])

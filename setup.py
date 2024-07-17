@@ -26,6 +26,7 @@ setup(
             'temperature_publisher = ROS2FirstAssignment.temperature_pub_node:main',
             'threshold_subscriber = ROS2FirstAssignment.threshhold_sub_node:main',
             'alert_publisher = ROS2FirstAssignment.alert_pub_node:main',
+            'temperature_logger = ROS2FirstAssignment.temperature_log_node:main',
         ],
     },
 )
