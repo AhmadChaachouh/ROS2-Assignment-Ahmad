@@ -15,7 +15,7 @@ This project implements a temperature monitoring system using ROS 2. The system 
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url> ~/ros2_ws/src/temperature_monitoring
+   git clone git@github.com:AhmadChaachouh/ROS2-Assignment-Ahmad.git ~/ros2_ws/src/temperature_monitoring
 
 2. **Navigate to the workspace**:
 
@@ -37,4 +37,4 @@ This project implements a temperature monitoring system using ROS 2. The system 
 You can launch the entire system using the provided launch file. This will start all the nodes (temperature publisher, threshold subscriber, alert publisher, and temperature logger).
 
  ```bash
-    ros2 launch temperature_monitoring temperature_monitoring_launch.py
+    ros2 launch ROS2FirstAssignment launch.py
