@@ -15,7 +15,7 @@ This project implements a temperature monitoring system using ROS 2. The system 
 1. **Clone the repository**:
 
    ```bash
-   git clone git@github.com:AhmadChaachouh/ROS2-Assignment-Ahmad.git ~/ros2_ws/src/temperature_monitoring
+   git clone git@github.com:AhmadChaachouh/ROS2-Assignment-Ahmad.git ~/ros2_ws/src/ROS2FirstAssignment
 
 2. **Navigate to the workspace**:
 
